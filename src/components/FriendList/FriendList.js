@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styles from './FriendList.module.css';
 
 const FriendList = ({ friends }) => {
-  // const statusIsOnline = friend.isOnline ? styles.active : styles.status;
   return (
     <ul className={styles.list}>
       {friends.map(friend => (

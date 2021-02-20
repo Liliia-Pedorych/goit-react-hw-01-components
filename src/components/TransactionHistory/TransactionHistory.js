@@ -14,10 +14,7 @@ const TransactionHistory = ({ items }) => {
       </thead>
       <tbody className={styles.transactionList}>
         {items.map(item => (
-          <tr
-            key={item.id}
-            // className={item.isOnline ? styles.transactionList : styles.status}
-          >
+          <tr key={item.id}>
             <td>{item.type}</td>
             <td>{item.amount}</td>
             <td>{item.currency}</td>
