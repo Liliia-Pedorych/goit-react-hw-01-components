@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgb(220, 220, 220);
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.active {
+  composes: status;
+  background-color: green;
+}
+
+.avatar {
+  margin-right: 15px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}

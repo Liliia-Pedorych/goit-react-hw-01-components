@@ -1,0 +1,29 @@
+.transactionHistory {
+  width: 800px;
+  margin: 10px auto;
+  /* border-radius: 40px; */
+  /* outline: red 1px solid; */
+}
+
+.transactionTitle {
+  background-color: rgb(59, 202, 202);
+}
+
+.transactionTitle th {
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.transactionList {
+  background-color: #fff;
+}
+
+.transactionList tr:nth-child(2n) {
+  background: rgb(236, 236, 236);
+}
+
+.transactionList td {
+  color: grey;
+  padding: 10px;
+}
