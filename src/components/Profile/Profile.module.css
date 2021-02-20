@@ -1,15 +1,16 @@
 ul {
   margin: 0;
+  padding: 0;
 }
 li {
   list-style: none;
 }
 
 .profile {
-  margin: 0 auto;
+  margin: 10px auto;
   max-width: 300px;
   border-radius: 5px;
-  background-color: #e8f6fc;
+  background-color: #ffffff;
 }
 
 .description {
@@ -19,7 +20,7 @@ li {
 
 .avatar {
   width: 150px;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 50%;
 }
 
@@ -40,12 +41,16 @@ li {
 
 .stats {
   display: flex;
-  padding: 15px;
   justify-content: space-around;
 }
 
 .stats > li {
   display: grid;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f2f8fa;
+  outline: rgb(233, 233, 233) solid 0.5px;
 }
 
 .label {
